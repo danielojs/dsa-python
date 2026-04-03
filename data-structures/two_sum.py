@@ -17,9 +17,8 @@ def two_sum2(arr, target):
     for i, num in enumerate(arr):
         complement = target - num
         if complement in seen:
-            print(seen)
             return [seen[complement], i]
         seen[num] = i
 
-print(two_sum2(nums, 17))
+print(two_sum2(nums, 9))
 
