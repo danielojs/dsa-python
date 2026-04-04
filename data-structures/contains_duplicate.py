@@ -1,6 +1,6 @@
 # Contains Duplicate Problem
 
-nums = [1, 2, 3, 4]
+nums = [1, 2, 3, 1]
 
 def contains_duplicate(arr) -> bool:
     unique_nums = set()
